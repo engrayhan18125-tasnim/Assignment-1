@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 23.5px 115.5px;
+  background-color: #ffffff;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+  font-weight: 500;
+}
+.menu li a {
+  text-decoration: none;
+  color: #575757;
+}
+.common-button {
+  background: #1d4ed8;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+}
+
