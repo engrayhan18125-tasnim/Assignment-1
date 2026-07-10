@@ -32,4 +32,42 @@
   font-weight: 600;
   border: none;
 }
+.herro-section {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/banner.jpg");
 
+  height: 730px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #ffffff;
+  gap: 60%;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.herro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.herro-text p {
+  width: 45%;
+}
+.herro-text h1 {
+  font-weight: 800;
+  font-size: 45px;
+}
