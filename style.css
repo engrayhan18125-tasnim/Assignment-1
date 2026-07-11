@@ -123,3 +123,172 @@ body {
 .des p {
   color: #575757;
 }
+
+/* pricing section */
+
+.pricing {
+  width: 1200px;
+  max-width: 90%;
+  margin: 120px auto;
+}
+
+.pricing-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.pricing-heading h2 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #172233;
+  margin-bottom: 12px;
+}
+
+.pricing-heading p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-standard {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.card-standard ul {
+  margin: 24px 0;
+  padding-left: 20px;
+}
+
+.card-standard li {
+  margin-bottom: 12px;
+  color: #333333;
+}
+
+.card-standard span {
+  color: #888888;
+}
+
+.card-standard h3 {
+  color: #0d1b2a;
+  padding: 10px 0;
+}
+
+.card-standard small {
+  color: #888888;
+}
+.card-standard hr {
+  margin-top: 20px;
+}
+
+.button-std {
+  width: 95%;
+  height: 40px;
+  display: block;
+  background-color: #ffffff;
+  color: #1d4ed8;
+  border: 1px solid #1d4ed8;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.card-pro {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+  background-color: #0d1b2a;
+}
+
+.card-pro ul {
+  margin: 24px 0;
+  padding-left: 20px;
+}
+
+.card-pro li {
+  margin-bottom: 12px;
+  color: #d7d3d3;
+}
+.card-pro span {
+  color: #93c5fd;
+}
+.card-pro h3 {
+  color: #ffffff;
+  padding: 10px 0;
+}
+.card-pro small {
+  color: #f0ebeb;
+}
+.card-pro hr {
+  margin-top: 20px;
+}
+
+ul li::marker {
+  color: #2563eb;
+}
+
+.button-pro {
+  width: 95%;
+  height: 40px;
+  display: block;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.card-team {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.card-team ul {
+  margin: 24px 0;
+  padding-left: 20px;
+}
+
+.card-team li {
+  margin-bottom: 12px;
+  color: #333333;
+}
+
+.card-team span {
+  color: #888888;
+}
+
+.card-team h3 {
+  color: #0d1b2a;
+  padding: 10px 0;
+}
+
+.card-team small {
+  color: #888888;
+}
+.card-team hr {
+  margin-top: 20px;
+}
+.button-tm {
+  width: 95%;
+  height: 40px;
+  display: block;
+  background-color: #ffffff;
+  color: #0d1b2a;
+  border: 1px solid #0d1b2a;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-weight: 600;
+}
