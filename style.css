@@ -292,3 +292,86 @@ ul li::marker {
   margin: 0 auto;
   font-weight: 600;
 }
+
+/* Missing section */
+
+/* Conference Schedule */
+
+.schedule-section {
+  width: 1200px;
+  max-width: 90%;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.schedule-heading h2 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #172233;
+  margin-bottom: 12px;
+}
+
+.schedule-heading p {
+  color: #6b7280;
+  margin-bottom: 55px;
+}
+
+.schedule-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.schedule-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.schedule-card.active {
+  background: #0d1b2a;
+  color: white;
+}
+
+.schedule-card.active .day {
+  color: #93c5fd;
+}
+
+.schedule-card.active .schedule-item span,
+.schedule-card.active .schedule-item p {
+  color: #f3f4f6;
+}
+
+.day {
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.schedule-card h3 {
+  margin: 12px 0 28px;
+  font-size: 24px;
+}
+
+.schedule-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.schedule-item span {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.schedule-item p {
+  color: #4b5563;
+}
+
+.schedule-btn {
+  margin-top: 50px;
+}
